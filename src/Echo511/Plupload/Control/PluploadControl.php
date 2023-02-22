@@ -61,7 +61,6 @@ class PluploadControl extends Control
 	 */
 	public function __construct(Uploader $uploader, IUploadQueueFactory $uploadQueueFactory, IStorage $cacheStorage)
 	{
-		parent::__construct();
 		$this->uploader = $uploader;
 		$this->uploadQueueFactory = $uploadQueueFactory;
 		$this->cacheStorage = $cacheStorage;
